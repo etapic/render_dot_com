@@ -7,4 +7,4 @@ app.get("/", (req, res) => res.type('html').send(html));
 app.listen(port, () => console.log(`Test app listening on port ${port}!`));
 
 
-const html = `Hey, this is render.com test app, version 2.0`;
+const html = `Hey, this is render.com test app, version 2.0, updated version`;
